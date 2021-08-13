@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".bhutan">
+
+    <TextView
+        android:id="@+id/bhu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Country Name: Bhutan"
+        android:textSize="25sp"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="30dp"/>
+    <TextView
+        android:id="@+id/Ar"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="Area: 38,394 sq.km"
+        android:textSize="25sp"
+        app:layout_constraintTop_toBottomOf="@+id/bhu"
+        app:layout_constraintRight_toRightOf="@+id/bhu"
+        app:layout_constraintLeft_toLeftOf="@+id/bhu"
+        android:layout_marginTop="20dp"
+        />
+
+    <TextView
+        android:id="@+id/rel"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="Religion: Buddhism"
+        android:textSize="25sp"
+        app:layout_constraintTop_toBottomOf="@+id/Ar"
+        app:layout_constraintRight_toRightOf="@+id/Ar"
+        app:layout_constraintLeft_toLeftOf="@+id/Ar"
+        android:layout_marginTop="20dp"/>
+
+    <TextView
+        android:id="@+id/pop"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="Population: 763,092"
+        android:textSize="25sp"
+        app:layout_constraintTop_toBottomOf="@+id/rel"
+        app:layout_constraintRight_toRightOf="@+id/rel"
+        app:layout_constraintLeft_toLeftOf="@+id/rel"
+        android:layout_marginTop="20dp"/>
+
+    <View
+        android:id="@+id/divider"
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:background="?android:attr/listDivider"
+        app:layout_constraintTop_toBottomOf="@+id/pop"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"/>
+
+    <TextView
+        android:id="@+id/des"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@+id/divider"
+        app:layout_constraintRight_toRightOf="@+id/divider"
+        app:layout_constraintLeft_toLeftOf="@+id/divider"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="200dp"
+        android:layout_marginLeft="30dp"
+        android:text="Bhutan, a Buddhist kingdom on the Himalayas’ eastern edge, is known for its monasteries, fortresses (or dzongs) and dramatic landscapes that range from subtropical plains to steep mountains and valleys. "
+        android:textSize="18sp"/>
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="10dp"
+        android:src="@drawable/bhut"
+        app:layout_constraintTop_toBottomOf="@+id/divider"
+        app:layout_constraintRight_toRightOf="@+id/divider"
+        />
+    <View
+        android:id="@+id/divider2"
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:background="?android:attr/listDivider"
+        app:layout_constraintTop_toBottomOf="@+id/des"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"/>
+    <TextView
+        android:id="@+id/ani"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Animals Found: Yes"
+        android:textSize="25sp"
+        app:layout_constraintTop_toTopOf="@+id/divider2"
+        app:layout_constraintLeft_toLeftOf="@+id/divider2"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginTop="30dp"/>
+
+    <TextView
+        android:id="@+id/bir"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="Birds Found:Yes"
+        android:textSize="25sp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        app:layout_constraintRight_toRightOf="@+id/ani"
+        app:layout_constraintStart_toStartOf="@+id/ani"
+        app:layout_constraintTop_toBottomOf="@+id/ani" />
+
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

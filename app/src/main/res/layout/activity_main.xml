@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cv1"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginRight="30dp"
+        android:backgroundTint="#D3BFED"
+        app:cardCornerRadius="15dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="10dp"
+            android:src="@drawable/bhut"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:text="+975"
+            android:layout_marginLeft="115dp"
+            android:layout_marginTop="40dp"/>
+
+        <TextView
+            android:id="@+id/Bhutan"
+            android:layout_width="170dp"
+            android:layout_height="100dp"
+            android:text="Bhutan"
+            android:layout_marginLeft="180dp"
+            android:textSize="30sp"
+            android:background="@color/purple_200"
+            android:layout_marginBottom="100dp"
+            android:gravity="center"
+            android:clickable="true"/>
+
+
+
+    </androidx.cardview.widget.CardView>
+
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cv2"
+        android:layout_width="0dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="40dp"
+        android:backgroundTint="#D3BFED"
+        app:cardCornerRadius="15dp"
+        app:layout_constraintLeft_toLeftOf="@+id/cv1"
+        app:layout_constraintRight_toRightOf="@+id/cv1"
+        app:layout_constraintTop_toBottomOf="@+id/cv1">
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="10dp"
+            android:src="@drawable/download"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:text="+44"
+            android:layout_marginLeft="115dp"
+            android:layout_marginTop="40dp"/>
+
+        <TextView
+            android:id="@+id/UK"
+            android:layout_width="170dp"
+            android:layout_height="100dp"
+            android:text="UK"
+            android:layout_marginLeft="180dp"
+            android:textSize="30sp"
+            android:background="@color/purple_200"
+            android:layout_marginBottom="100dp"
+            android:gravity="center"
+            android:clickable="true"/>
+
+
+
+    </androidx.cardview.widget.CardView>
+
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cv3"
+        android:layout_width="0dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="40dp"
+        android:backgroundTint="#D3BFED"
+        app:cardCornerRadius="15dp"
+        app:layout_constraintLeft_toLeftOf="@+id/cv2"
+        app:layout_constraintRight_toRightOf="@+id/cv2"
+        app:layout_constraintTop_toBottomOf="@+id/cv2">
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="10dp"
+            android:src="@drawable/ind"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:text="+91"
+            android:layout_marginLeft="115dp"
+            android:layout_marginTop="40dp"/>
+
+        <TextView
+            android:id="@+id/India"
+            android:layout_width="170dp"
+            android:layout_height="100dp"
+            android:text="India"
+            android:layout_marginLeft="180dp"
+            android:textSize="30sp"
+            android:background="@color/purple_200"
+            android:layout_marginBottom="100dp"
+            android:gravity="center"
+            android:clickable="true"/>
+
+    </androidx.cardview.widget.CardView>
+
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cv4"
+        android:layout_width="0dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="40dp"
+        android:backgroundTint="#D3BFED"
+        app:cardCornerRadius="15dp"
+        app:layout_constraintLeft_toLeftOf="@+id/cv3"
+        app:layout_constraintRight_toRightOf="@+id/cv3"
+        app:layout_constraintTop_toBottomOf="@+id/cv3">
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="10dp"
+            android:src="@drawable/pakis"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:text="+92"
+            android:layout_marginLeft="115dp"
+            android:layout_marginTop="40dp"/>
+
+        <TextView
+            android:id="@+id/pakistan"
+            android:layout_width="170dp"
+            android:layout_height="100dp"
+            android:text="Pakistan"
+            android:layout_marginLeft="180dp"
+            android:textSize="30sp"
+            android:background="@color/purple_200"
+            android:layout_marginBottom="100dp"
+            android:gravity="center"
+            android:clickable="true"/>
+
+
+    </androidx.cardview.widget.CardView>
+
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cv5"
+        android:layout_width="0dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="40dp"
+        android:backgroundTint="#D3BFED"
+        app:cardCornerRadius="15dp"
+        app:layout_constraintLeft_toLeftOf="@+id/cv4"
+        app:layout_constraintRight_toRightOf="@+id/cv4"
+        app:layout_constraintTop_toBottomOf="@+id/cv4">
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="10dp"
+            android:src="@drawable/us"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:text="+1"
+            android:layout_marginLeft="115dp"
+            android:layout_marginTop="40dp"/>
+
+        <TextView
+            android:id="@+id/america"
+            android:layout_width="170dp"
+            android:layout_height="100dp"
+            android:text="America"
+            android:layout_marginLeft="180dp"
+            android:textSize="30sp"
+            android:background="@color/purple_200"
+            android:layout_marginBottom="100dp"
+            android:gravity="center"
+            android:clickable="true"/>
+
+
+    </androidx.cardview.widget.CardView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
